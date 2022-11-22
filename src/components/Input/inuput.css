@@ -1,0 +1,12 @@
+input {
+  color: blue;
+}
+.medium {
+  width: 150px;
+}
+.small {
+  width: 100px;
+}
+.large {
+  width: 200px;
+}
