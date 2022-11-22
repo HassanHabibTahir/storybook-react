@@ -1,19 +1,19 @@
 #Creating Stories With StoryBook
 
-=> create React App with ** npx create-react-app **
-=> install storybook in the app with ** npx sb init **
-=> Create Stories with ** .stories.js ** extension in the app under src.
-=> run storybook with ** npm storybook **
-=> view your stories in browser
+=> create React App with ** npx create-react-app **,
+=> install storybook in the app with ** npx sb init **,
+=> Create Stories with ** .stories.js ** extension in the app under src.,
+=> run storybook with ** npm storybook **,
+=> view your stories in browser,
 
 #Deployment
 
-=> To Deploy in Npmjs, first signup on npms.com and remember your username and Password.
-=> Delete public folder, app.js , and empty index.js file.
-=> Export all your stories components from index.js
-=> To publish the library we need to create an index.js file under dist folder.
-=> To do this we need rollup configration
-=> Install following rollup packages
+=> To Deploy in Npmjs, first signup on npms.com and remember your username and Password.,
+=> Delete public folder, app.js , and empty index.js file.,
+=> Export all your stories components from index.js,
+=> To publish the library we need to create an index.js file under dist folder.,
+=> To do this we need rollup configration,
+=> Install following rollup packages,
 
 npm i rollup-plugin-babel
 @rollup/plugin-node-resolve
@@ -61,10 +61,10 @@ terser(),
 => Add correct file location in package.json main
 "main": "dist/index.js",
 
-=> After running the config. you will saw your index.js file under dist folder.
+=> After running the config. you will saw your index.js file under dist folder. ,
 
-=>Run ** npm login ** in cmd
-=>Run ** npm publish **
+=>Run ** npm login ** in cmd,
+=>Run ** npm publish **,
 
-=> For Guidance 
+=> For Guidance
 https://www.youtube.com/watch?v=hf6Z8OZanec
