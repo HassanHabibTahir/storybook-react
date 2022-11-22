@@ -65,3 +65,6 @@ terser(),
 
 =>Run ** npm login ** in cmd
 =>Run ** npm publish **
+
+=> For Guidance 
+https://www.youtube.com/watch?v=hf6Z8OZanec
