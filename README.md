@@ -1,4 +1,4 @@
-#Creating Stories With StoryBook
+# Creating Stories With StoryBook
 
 => create React App with ** npx create-react-app **
 
@@ -10,7 +10,7 @@
 
 => view your stories in browser
 
-#Deployment
+# Deployment
 
 => To Deploy in Npmjs, first signup on npms.com and remember your username and Password.
 
