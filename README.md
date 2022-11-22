@@ -1,28 +1,28 @@
 # Creating Stories With StoryBook
 
-## => create React App with ** npx create-react-app **
+### * create React App with ** npx create-react-app **
 
-## => install storybook in the app with ** npx sb init **
+### * install storybook in the app with ** npx sb init **
 
-## => Create Stories with ** .stories.js ** extension in the app under src.
+### * Create Stories with ** .stories.js ** extension in the app under src.
 
-## => run storybook with ** npm storybook **
+### * run storybook with ** npm storybook **
 
-## => view your stories in browser
+### * view your stories in browser
 
 # Deployment
 
-## => To Deploy in Npmjs, first signup on npms.com and remember your username and Password.
+### * To Deploy in Npmjs, first signup on npms.com and remember your username and Password.
 
-## => Delete public folder, app.js , and empty index.js file.
+### * Delete public folder, app.js , and empty index.js file.
 
-## => Export all your stories components from index.js
+### * Export all your stories components from index.js
 
-## => To publish the library we need to create an index.js file under dist folder.
+### * To publish the library we need to create an index.js file under dist folder.
 
-## => To do this we need rollup configration
+### * To do this we need rollup configration
 
-## => Install following rollup packages
+### * Install following rollup packages
 
 npm i rollup-plugin-babel
 @rollup/plugin-node-resolve
@@ -31,7 +31,7 @@ rollup-plugin-postcss
 @rollup/plugin-commonjs
 rollup-plugin-terser --save-dev
 
-## => Create rollup.config.js on root level of the app and write this
+### * Create rollup.config.js on root level of the app and write this
 
 const babel = require("rollup-plugin-babel");
 const resolve = require("@rollup/plugin-node-resolve");
@@ -64,17 +64,17 @@ terser(),
 },
 ];
 
-## => Add the script in package.json to run rollup config
+### * Add the script in package.json to run rollup config
 "build-lib": "rollup -c",
 
-## => Add correct file location in package.json main
+### * Add correct file location in package.json main
 "main": "dist/index.js",
 
-## => After running the config. you will saw your index.js file under dist folder. ,
+### * After running the config. you will saw your index.js file under dist folder. ,
 
-## =>Run ** npm login ** in cmd
+### * Run ** npm login ** in cmd
 
-## =>Run ** npm publish **
+### * Run ** npm publish **
 
-## => For Guidance
+### * For Guidance
 https://www.youtube.com/watch?v=hf6Z8OZanec
